@@ -4,9 +4,9 @@ Hello this is Screen where Displaying a search bar and webview
 
 # How to run the app
 
-1. Download Expo Go From android | ios
+1. Download Expo Go (APP) From Google Play | App Store
 
-2. clone this repository
+2. Clone this repository
 
 3. Install dependencies
 
@@ -14,7 +14,7 @@ Hello this is Screen where Displaying a search bar and webview
    npm install
    ```
 
-4. Start the app
+4. To Start the app run at the terminal
 
    ```bash
     npx expo start
