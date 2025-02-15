@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "webview_sample",
+    "slug": "webview_sample",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/www.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/www.png",
+        "backgroundColor": "#0000FE"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "splash": {
+      "image": "./assets/images/www.png",
+      "resizeMode": "native",
+      "backgroundColor": "#0000FE"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
