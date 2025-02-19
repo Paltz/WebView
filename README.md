@@ -21,3 +21,5 @@ Hello this is Screen where Displaying a search bar and webview
    ```
 
 5. Scan the QR code from the Expo Go app if its Android | use camera to scan the QR code if its IOS
+
+6. eas build -p android --profile production

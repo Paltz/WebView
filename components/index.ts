@@ -13,18 +13,9 @@ export interface IControlledInputs {
     required?: boolean;
     onBlurText?: (value: any) => string | number;
     onChangeText?: (value: any) => string | number;
-    isLeft?: boolean;
-    isLeftIcon?: string;
     isRight?: boolean;
-    isPassword?: boolean;
-    isMessage?: boolean;
-    isDisabled?: boolean;
-    isEditable?: boolean;
-    isPaste?: boolean;
-    maxLength?: number;
     keyboardType?: TextInputProps['keyboardType'];
     returnKeyType?: TextInputProps['returnKeyType']; 
-    clearErrors?: UseFormClearErrors<FieldValues>;
     onSearchPress?: () => void;
 }
 

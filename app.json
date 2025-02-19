@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/www.png",
         "backgroundColor": "#0000FE"
-      }
+      },
+      "package": "com.adgamerzero.webview_sample"
     },
     "web": {
       "bundler": "metro",
@@ -33,6 +34,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d38c02a8-bd67-4a43-9886-a0ad8253c77b"
+      }
     }
   }
 }
